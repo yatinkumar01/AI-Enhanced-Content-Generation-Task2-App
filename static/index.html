@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div id="nav">
+      <h2>Advanced AI-Enhanced Content Generation Application</h2>
+    </div>
+    <div id="container">
+      <div id="left">
+        <textarea type="text" id="myInput" placeholder="Enter..."></textarea>
+
+        <div>
+          <button id="text-gen" onclick="textGenerator()">Text Generator</button>
+          <button id="emotion-req" onclick="emotionRecogination()">Emotion Recognition</button>
+        </div>
+        <div id="upload">
+          <div >
+            <label >Document Summarization</label>
+            <input type="file" id="save_file"/>
+          </div>
+          <button id="btn" onclick="fileUploader()">submit</button>
+        </div>
+      </div>
+      <div id="right">
+        <h3 style="text-align: center; margin-bottom: 20px">Output</h3>
+      </div>
+    </div>
+  </body>
+</html>
